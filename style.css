@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+.mainone {
+    background-image: url(https://www.onemedical.com/media/images/81B4690A-8C8A-42A6-B40D-5563EF2F59EC_uMxZiOn.original.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainone header {
+    height: 10vh;
+}
+
+header #logo {
+
+}
+
+nav #mylinks {
+    display: flex;
+    float: right;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+nav li {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav .location, .forbusiness {
+    padding: 0px 24px;
+    margin-right: 20px;
+}
+
+nav .foryou, .forkids, .login {
+    padding-left: 24px;
+}
+
+header a{
+    text-decoration: none;
+    color: #005450;
+}
+
+nav li button {
+    padding: 15px 20px;
+    background-color: #005450;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    margin-top: -10px;
+    margin-left: 24px;
+}
+
+.ordinary {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
